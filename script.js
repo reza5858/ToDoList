@@ -13,7 +13,7 @@ $(document).ready(
       	});
       
       $(document).on('dblclick','li', function(){
-        $(this).toggleClass('strike').fadeOut('slow');    
+        $(this).toggleClass('del').fadeOut('slow');    
       	});
       
       $('input').focus(function() {

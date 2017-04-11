@@ -34,11 +34,16 @@ p {
 }
 #button {
 	display: inline-block;
+	position: relative;
+	left: -1px;
+	height: 19px;
 	background-color: rgb(216, 77, 107);
 	color:#ffffff;
-	border-radius: 5px;
+	border-radius: 0 5px 5px 0;
 	text-align:center;
 	padding: 5px 15px;
+	color: black;
+	
 }
 #button:hover {
 	cursor: pointer;
@@ -48,17 +53,20 @@ p {
     outline: none;
     background-color: #d84d6b;
     border-color: #d84d6b;
-    box-shadow: inset 0px 2px 1px 0px rgba(0, 0, 0, .25);
+    box-shadow: inset -2px 0px 3px 0px rgba(0, 0, 0, .25);
 }
 #mrProper {
 	float: right;
 	display: inline-block;
+	height: 19px;
 	background-color: rgb(216, 77, 107);
 	color:#ffffff;
 	border-radius: 5px;
 	text-align:center;
 	padding: 5px 15px;
 	margin-top: 30px;
+	color: black;
+	
 }
 #mrProper:hover {
 	cursor: pointer;
@@ -73,21 +81,21 @@ p {
 form input {
     border: 1px solid;
     height: 17px;
-    border-radius:6px;
-    line-height:1.33;
+    border-radius:5px 0 0 5px;
+    line-height: 1.33;
     padding: 5px 10px;
     margin: 5px 0;
     box-sizing: content-box;
     width: 90%;
     outline: none;
-    margin-right: 30px;
+    color: #d84d6b;
 }   
 form input:focus {
     border: 1.5px solid;
-    border-color: #d84d6b;
+    opacity: .9;
     transition-duration: .4s;
 }
-.strike{text-decoration: line-through;}
+.del{text-decoration: line-through;}
 
 ol {padding-left: 20px;
 }
@@ -95,8 +103,6 @@ ol {padding-left: 20px;
 ol li {padding: 5px;color:#000;}
 
 ol li:nth-child(even){background: #d84d6b;}
-
-.strike{text-decoration: line-through;}
 
 li:hover{
   cursor: pointer;
