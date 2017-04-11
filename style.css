@@ -97,8 +97,7 @@ form input:focus {
 }
 .del{text-decoration: line-through;}
 
-ol {padding-left: 20px;
-}
+ol {padding-left: 20px;overflow: hidden;}
 
 ol li {padding: 5px;color:#000;}
 
