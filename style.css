@@ -79,7 +79,6 @@ p {
 }
 form input {
     border: 1px solid;
-    position: initial;
     height: 17px;
     border-radius:5px 0 0 5px;
     line-height: 1.33;
@@ -97,7 +96,7 @@ form input:focus {
 }
 .del{text-decoration: line-through;}
 
-ol {padding-left: 20px;overflow: hidden;}
+ol {padding-left: 20px;}
 
 ol li {padding: 5px;color:#000;}
 
