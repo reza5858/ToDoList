@@ -1,9 +1,9 @@
 .wrapper {
 	width: 800px;
 	margin: 0 auto;
-	background: linear-gradient(to top, #3498DB 0%,#8E44AD 100%);
+	background: linear-gradient(135deg, #3023ae 0%, #53a0fe 50%, #b4ed50 100%);
 	padding: 40px 80px; 
-	border-radius: 5px;
+	border-radius: 20px;
 }
 form {
 	margin-top: 30px;
@@ -35,7 +35,7 @@ p {
 #button {
 	display: inline-block;
 	position: relative;
-	left: -1px;
+	left: -5px;
 	height: 19px;
 	background-color: rgb(216, 77, 107);
 	color:#ffffff;
@@ -86,7 +86,7 @@ form input {
     padding: 5px 10px;
     margin: 5px 0;
     box-sizing: content-box;
-    width: 90%;
+    width: 320px;
     outline: none;
     color: #d84d6b;
 }   
