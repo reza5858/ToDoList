@@ -1,0 +1,103 @@
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+	background: linear-gradient(to top, #3498DB 0%,#8E44AD 100%);
+	padding: 40px 80px; 
+	border-radius: 5px;
+}
+form {
+	margin-top: 30px;
+	display: inline-block;
+}
+h2 {
+	font-size: 40pt;
+	text-align: center;
+	margin: 20px 0;
+	text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+p { 
+	font-size: 16pt;
+}
+#blink {
+  -webkit-animation: blink 3s linear infinite;
+  animation: blink 3s linear infinite;
+}
+@-webkit-keyframes blink {
+  0% { color: rgba(216, 77, 107, 1); }
+  50% { color: rgba(216, 77, 107, 0); }
+  100% { color: rgba(216, 77, 107, 1); }
+}
+@keyframes blink {
+  0% { color: rgba(216, 77, 107, 1); }
+  50% { color: rgba(216, 77, 107, 0); }
+  100% { color: rgba(216, 77, 107, 1); }
+}
+#button {
+	display: inline-block;
+	background-color: rgb(216, 77, 107);
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	padding: 5px 15px;
+}
+#button:hover {
+	cursor: pointer;
+	opacity: .9;
+}
+#button:active {
+    outline: none;
+    background-color: #d84d6b;
+    border-color: #d84d6b;
+    box-shadow: inset 0px 2px 1px 0px rgba(0, 0, 0, .25);
+}
+#mrProper {
+	float: right;
+	display: inline-block;
+	background-color: rgb(216, 77, 107);
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	padding: 5px 15px;
+	margin-top: 30px;
+}
+#mrProper:hover {
+	cursor: pointer;
+	opacity: .9;
+}
+#mrProper:active {
+    outline: none;
+    background-color: #d84d6b;
+    border-color: #d84d6b;
+    box-shadow: inset 0px 2px 1px 0px rgba(0, 0, 0, .25);
+}
+form input {
+    border: 1px solid;
+    height: 17px;
+    border-radius:6px;
+    line-height:1.33;
+    padding: 5px 10px;
+    margin: 5px 0;
+    box-sizing: content-box;
+    width: 90%;
+    outline: none;
+    margin-right: 30px;
+}   
+form input:focus {
+    border: 1.5px solid;
+    border-color: #d84d6b;
+    transition-duration: .4s;
+}
+.strike{text-decoration: line-through;}
+
+ol {padding-left: 20px;
+}
+
+ol li {padding: 5px;color:#000;}
+
+ol li:nth-child(even){background: #d84d6b;}
+
+.strike{text-decoration: line-through;}
+
+li:hover{
+  cursor: pointer;
+ }
