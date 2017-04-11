@@ -85,7 +85,7 @@ form input {
     padding: 5px 10px;
     margin: 5px 0;
     box-sizing: content-box;
-    width: 320px;
+    width: 420px;
     outline: none;
     color: #d84d6b;
 }   
@@ -98,10 +98,10 @@ form input:focus {
 
 ol {padding-left: 20px;}
 
-ol li {padding: 5px;color:#000;}
+ol li {padding: 10px;color:#000;border-radius: 10px;}
 
 ol li:nth-child(even){background: #d84d6b;}
 
 li:hover{
   cursor: pointer;
- }
+}
